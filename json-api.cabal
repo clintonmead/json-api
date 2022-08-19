@@ -1,13 +1,13 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.3.
+-- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 6aa624502a73291732e0bbd403b6d9691e79387c2c37978d21327402feb9da01
+-- hash: 24ed219e7d29db5469c1eb110088fd3504a316b0252f68561270a61ed90f3208
 
 name:           json-api
-version:        0.1.4.0
+version:        0.1.5.0
 synopsis:       Utilities for generating JSON-API payloads
 description:    Provides utilities for deriving JSON payloads conformant to the json-api specification
 category:       Network
@@ -52,7 +52,12 @@ library
       Paths_json_api
   hs-source-dirs:
       src
-  default-extensions: DeriveGeneric GeneralizedNewtypeDeriving OverloadedStrings RecordWildCards TemplateHaskell
+  default-extensions:
+      DeriveGeneric
+      GeneralizedNewtypeDeriving
+      OverloadedStrings
+      RecordWildCards
+      TemplateHaskell
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -fhide-source-paths -fno-warn-warnings-deprecations -freverse-errors -fwarn-unused-binds -fwarn-unused-imports -fwarn-unused-matches -fwarn-unused-imports
   build-depends:
       aeson
@@ -82,7 +87,11 @@ test-suite json-api-test
       Paths_json_api
   hs-source-dirs:
       test
-  default-extensions: DeriveGeneric GeneralizedNewtypeDeriving OverloadedStrings RecordWildCards
+  default-extensions:
+      DeriveGeneric
+      GeneralizedNewtypeDeriving
+      OverloadedStrings
+      RecordWildCards
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints -fhide-source-paths -fno-warn-warnings-deprecations -freverse-errors -fwarn-unused-binds -fwarn-unused-imports -fwarn-unused-matches
   build-depends:
       aeson

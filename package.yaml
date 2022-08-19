@@ -1,5 +1,5 @@
 name: json-api
-version: '0.1.4.0'
+version: '0.1.5.0'
 synopsis: Utilities for generating JSON-API payloads
 description: ! 'Provides utilities for deriving JSON payloads conformant to the json-api specification'
 category: Network
